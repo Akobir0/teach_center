@@ -6,23 +6,57 @@ body{
 header{
     background-image:linear-gradient(to right, blueviolet,blue) ;
     height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    flex-wrap: wrap;
 }
 
+h1{
+    color: white;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+}
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
 
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;    
+}   
 
+button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 0);
+    color: black;
+    padding: 15px 50px;
+    border-radius: 10px;
+    transition: 0.3s 0s;
+}
 
+button:hover{
+    background-color: rgb(192, 194, 49);
+}
 
-
-
-
-
-
-
-
-
-
+div{
+    background-color: white;
+    height: 600px;
+}
 
 
 
