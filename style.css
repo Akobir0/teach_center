@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(248, 248, 248);
     margin: 0px;
 }
 
@@ -14,7 +14,7 @@ header{
 }
 
 h1{
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
@@ -33,7 +33,7 @@ h2{
 }
 
 p{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     text-align: center;    
@@ -53,28 +53,77 @@ button:hover{
     background-color: rgb(192, 194, 49);
 }
 
-div{
+.ab-cours{
     background-color: white;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
+.cours{
+    height: 300px;
+    width: 500px;
+    border: 1px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+}
 
+img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+section h1{
+    position: relative;
+    bottom: 80px;
+    right: 160px;
+}
 
+.ad-ntg{
+    height: 450px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
 
+.ad-ntg section{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px -7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: all 0.8s 0s;
+}
 
+.ad-ntg section div{
+    text-align: center;
+}
 
+.ad-ntg h1{
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
 
-
-
-
-
-
-
-
-
-
+.ad-ntg section:hover{
+    transform: translateY(-10px);
+}
 
 
 
