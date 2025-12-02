@@ -14,12 +14,12 @@
            
 
             <nav>
-                <p>О курсах</p>
-                <p>Пемущество</p>
-                <p>Программы</p>
-                <p>Отзывы</p>
-                <p>Цены</p>
-                <p>Регистрация</p>
+                <a href="#cours" style="text-decoration: none;">О курсах</a>
+                <a href="#ad-ntg" style="text-decoration: none;">Пемущество</a>
+                <a href="#program" style="text-decoration: none;">Программы</a>
+                <a href="#otz" style="text-decoration: none;">Отзывы</a>
+                <a href="#price" style="text-decoration: none;">Цены</a>
+                <a href="#regist" style="text-decoration: none;">Регистрация</a>
             </nav>
             
 
@@ -27,12 +27,16 @@
 
             <h1>Стань разработчиком с нуля</h1>
             <p>Онлайн-курсы по программированию с гарантией трудоустройства</p>
-            <button>Начать обучение</button>
+           <a href="#regist">
+               <div>
+                   <button>Начать обучение</button>
+                </div>
+            </a> 
     </header>
-<!--              -->
+    <!--              -->
     <div class="ab-cours">
         <section class="cours">
-            <h1 style="color: black;">О курсах</h1>
+            <h1 id="cours" style="color: black;">О курсах</h1>
             <p style="text-align: left; color: black;" >Наши курсы разработаны для тех, кто хочет освоить программирование с нуля и начать карьеру в IT. Мы предлагаем:</p>
             <ul>
                 <li>Практические задания и  проекты.</li>
@@ -49,7 +53,7 @@
         
     </div>
 <!--              -->
-    <div class="ad-ntg">
+    <div class="ad-ntg" id="ad-ntg">
 
         <h1 style="color: black;">Премущество</h1>   
         <section>
@@ -63,7 +67,7 @@
             <div style="font-size: 20px;">Менторы</div>
             <div>Поддержка опытных разработчиков.</div>
         </section>
-        <!--   -->
+         
         <section>
             <div style="font-size: 30px;">📚</div>
             <div style="font-size: 20px;">Практика</div>
@@ -73,7 +77,7 @@
 
     </div>
 <!--              -->
-        <div class="program">
+        <div class="program" id="program">
 
         <h1 style="color: black; font-size: 26px;">Программы курсов</h1>   
         <section>
@@ -105,8 +109,8 @@
 
 
     </div>
-<!--              -->
-        <div class="otz">
+             <!-- -->
+        <div class="otz" id="otz">
 
         <h1 style="color: black;">Отзывы</h1>   
         <section>
@@ -127,7 +131,7 @@
 
     </div>
 <!--              -->
-    <div class="price">
+    <div class="price" id="price">
             
       <h1 style="color: black;">Цены</h1>   
         <section>
@@ -171,7 +175,7 @@
     
     </div>
 <!--              -->
-    <div class="regist">
+    <div class="regist" id="regist">
             <h1 style="color: black;">Регистрация</h1>
         <input type="text" placeholder="Ваше имя">
         <input type="text" placeholder="Ваш Email">
