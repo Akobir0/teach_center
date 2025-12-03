@@ -46,7 +46,6 @@ a:hover{
 p{
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
     text-align: center;    
 }   
 
@@ -66,7 +65,7 @@ header button:hover{
 
 .ab-cours{
     background-color: white;
-    padding: 20px 0px;
+    padding: 100px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +92,7 @@ a{
 }
 
 .ad-ntg{
-    padding: 60px 0px;
+    padding: 100px 0px;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -124,7 +123,7 @@ a{
 
 .program{
     background-color: white;
-    padding: 60px 0px;
+    padding: 100px 0px;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -146,7 +145,7 @@ a{
 }
 
 .otz{
-    padding: 60px 0px;
+    padding: 100px 0px;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -167,13 +166,12 @@ a{
 }
 
 .otz div{
-    position: relative;
-    left: 10px;
+    margin: 20px;
 }
 
 .price{
     background-color: white;
-    padding: 60px 0px;
+    padding: 100px 0px;
     display: flex;  
     justify-content: center;
     align-items: center;
@@ -264,12 +262,35 @@ select{
     justify-content: center;
 }
 
+@media screen and (max-width:426px) {
+    .ab-cours{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    img{
+        height: 190px;
+        width: 290px;
+        border-radius: 20px;
+    }
 
+    a{
+        font-size: 59%;
+    }
 
+    .program section{
+        height: 150px;
+        width: 350px;
+    }
 
+    input, select{
+        width: 90%;
+    }
 
-
+    p{
+        padding: 15px;
+    }
+}
 
 
 
